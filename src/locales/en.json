@@ -1,0 +1,138 @@
+{
+  "main-page": {
+    "content": "Main Page",
+    "title": "Car Repair"
+
+  },
+  "logging": {
+    "logIn": "Log in",
+    "logOut": "Log out",
+    "email": "Email",
+    "password": "Password",
+    "text": "Logged as: "
+  },
+  "nav": {
+    "main-page": "Main page",
+    "customers": "Customers",
+    "cars": "Cars",
+    "rent": "Rent"
+  },
+  "list": {
+    "actions": {
+      "title": "Actions",
+      "details": "Details",
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "form": {
+    "actions": {
+      "return": "Return",
+      "edit": "Edit",
+      "cancel": "Cancel",
+      "add": "Add",
+      "login": "Enter"
+    }
+  },
+  "customer": {
+    "list": {
+      "addNew": "Add a new rent",
+      "pageTitle": "List of customers",
+      "noData": "No customers in database"
+    },
+    "fields": {
+      "name": "Name",
+      "surname": "Surname",
+      "address": "Address",
+      "email": "Email",
+      "password": "Password",
+      "role": "Function",
+      "user": "User",
+      "admin": "Admin",
+      "logged": "Logged in as"
+    },
+    "form": {
+      "rent": {
+        "title":"Rents details",
+        "car":"Car",
+        "address":"Address",
+        "rentalDate":"Date Of Rental"
+      },
+      "add": {
+        "pageTitle": "New Customer",
+        "btnLabel": "Add the customer",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The customer has been successfully updated"
+        }
+      },
+      "edit": {
+        "pageTitle": "Editing a customer",
+        "btnLabel": "Save changes",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The customer has been successfully updated"
+        }
+      }
+    },
+    "details": {
+      "loading": "Loading customer's data..."
+    }
+  },
+  "car": {
+    "fields": {
+      "carModel": "Car Model",
+      "VIN": "VIN",
+      "manufactured": "Manufactured",
+      "color": "Color"
+
+    },
+    "list": {
+      "title": "Car List",
+      "addNew": "Add a new car",
+      "noData": "No car in database",
+      "pageTitle": "List of Cars"
+    },
+    "form": {
+      "details": {
+        "pageTitle": "Car details"
+      },
+      "add": {
+        "pageTitle": "Add a new car",
+        "btnLabel": "Add new car",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The new car has been successfully created"
+        }
+      },
+      "edit": {
+        "pageTitle": "Edit an car",
+        "btnLabel": "Save changes",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The car has been successfully updated"
+        }
+      }
+    }
+  },
+  "rent": {
+    "list": {
+      "pageTitle": "Rent list"
+    },
+    "fields": {
+      "customer": "rent.fields.customer",
+      "car": "rent.fields.car",
+      "rentalDate": "Date of rent"
+    }
+  },
+
+  "validation": {
+    "messages": {
+      "notEmpty": "The field is required",
+      "len_2_60": "The field should contain from 2 to 60 characters",
+      "len_5_60": "The field should contain from 5 to 60 characters",
+      "isEmail": "The field should contain a valid email address",
+      "formErrors": "The form contains errors"
+    }
+  }
+}
